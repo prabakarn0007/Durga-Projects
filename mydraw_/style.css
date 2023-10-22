@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: #095219;
+    overflow: hidden;
+}
+
+.hero .carousel {
+     width: 300px;
+     margin: 100px auto 0;
+     overflow: visible;
+}
+
+.carousel img {
+    -webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.3));
+    border: 5px solid rgb(255, 3, 3);
+    border-radius: 1.5rem;
+}
+
+/* Style for the footer container */
+.footerContainer {
+    background-color: #fff01e; /* Background color of the footer */
+    color: #fff; /* Text color for the footer content */
+    padding: 10px; /* Add padding to give space around the content */
+    text-align: center; /* Center-align the content */
+  }
+  
+  /* Style for the social icons */
+  .social-icons {
+    margin-top: 10px; /* Add some spacing above the icons */
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    color: #fff; /* Color for the icons */
+    font-size: 24px; /* Font size of the icons */
+    margin: 0 10px; /* Add spacing between the icons */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  .social-icons a:hover {
+    color: #ff0000; /* Color when hovering over the icons */
+  }
+  
+  /* Style for the email link */
+  .social-icons a.email-link {
+    font-size: 16px; /* Font size of the email icon */
+  }
+  
+  /* Style for the footer bottom text */
+  .footerBottom {
+    margin-top: 20px; 
+    text-align: center;
+  }
+  
+  .designer {
+    font-weight: bold; /* Make the designer's name bold */
+    color: #007bff; /* Color for the designer's name */
+  }
+  
